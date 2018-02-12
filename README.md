@@ -1,10 +1,10 @@
-#Shreyas Devalapurkar Personal Website
+# Shreyas Devalapurkar's Personal Website
 
-My personal profile website I built based off a Bootstrap template using HTML, CSS, JavaScript, and JQuery.
+A personal profile website I built based off a Bootstrap template using HTML, CSS, JavaScript, and JQuery.
 
 ## Preview
 
-
+<img src="https://user-images.githubusercontent.com/28017034/36082897-69612384-0f62-11e8-9266-0b3564e61f0d.png"/>
 
 ## About the library
 
