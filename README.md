@@ -4,8 +4,7 @@ A personal profile website I built based off a Bootstrap template using HTML, CS
 
 ## Preview
 
-![Webpage](https://user-images.githubusercontent.com/28017034/36082897-69612384-0f62-11e8-9266-0b3564e61f0d.png)
-<img src="https://user-images.githubusercontent.com/28017034/36082897-69612384-0f62-11e8-9266-0b3564e61f0d.png"/>
+![Webpage Image](https://user-images.githubusercontent.com/28017034/36082897-69612384-0f62-11e8-9266-0b3564e61f0d.png)
 
 ## About the library
 
