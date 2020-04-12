@@ -32,7 +32,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Shreyas Devalapurkar</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://avatars0.githubusercontent.com/u/28017034?s=460&v=4" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./img/profile_photo.ico" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,7 +88,7 @@
           </p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/shreyas-devalapurkar-08a529106/">
+              <a href="https://www.linkedin.com/in/shreyas-devalapurkar-08a529106/" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -96,7 +96,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://github.com/sdevalapurkar">
+              <a href="https://github.com/sdevalapurkar" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -104,7 +104,7 @@
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="files/shreyas-resume-may-2018.pdf">
+              <a href="files/shreyas-resume.pdf" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
@@ -121,8 +121,83 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
+              <h3 class="mb-0">Software Development Analyst</h3>
+              <div class="subheading mb-3"><a href="https://ca.nttdata.com/en/" target="_blank"><img src="img/ntt.png" height="50" width="50" align="middle"></a>  NTT DATA Services</div>
+              <p>Working with a variety of BC Justice Sector clients, ranging from Corrections to Victim Services.</p>
+              <p style="color: #343a40; font-weight: bold">Electronic Criminal Record Check Platform (eCRC)</p>
+              <p>Led frontend development on the building of British Columbia's brand new electronic Criminal Record Check platform to provide an easy way for a CRC to be completed online.</p>
+              <p>Built and shipped the application from scratch with the team and onboarded our first clients to begin using the new platform.</p>
+              <p>Created a reusable library for BC Government themed components through Component-Driven Development and Storybook.</p>
+              <p>Wrote high quality code with > 95% test coverage, no code duplication and security vulnerabilites (as per static code analysis).</p>
+              <li class="list-inline-item">
+                <a href="https://github.com/bcgov/jag-ecrc" target="_blank">eCRC</a>
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <p></p>
+              <p style="color: #343a40; font-weight: bold">Account and Licensing Management Tool (MALT)</p>
+              <p>Led frontend development and built an internal tool for administrators to be able to add and remove users from project resources.</p>
+              <p style="color: #343a40; padding-top: 15px">Login Landing Page</p>
+              <img src="https://raw.githubusercontent.com/bcgov/maltd/master/img/idir1.png" height="250" width="400" align="middle" hspace="12">
+              <p style="color: #343a40; padding-top: 15px">Federated IDIR Login Page</p>
+              <img src="https://raw.githubusercontent.com/bcgov/maltd/master/img/idir2.png" height="250" width="400" align="middle" hspace="12">
+              <p style="color: #343a40; padding-top: 15px">User Search Page</p>
+              <img src="https://raw.githubusercontent.com/bcgov/maltd/master/img/usersearch.png" height="250" width="400" align="middle" hspace="12">
+              <p style="color: #343a40; padding-top: 15px">User Access Page</p>
+              <img src="https://raw.githubusercontent.com/bcgov/maltd/master/img/useraccess.png" height="250" width="400" align="middle" hspace="12">
+              <p></p>
+              <li class="list-inline-item">
+                <a href="https://github.com/bcgov/maltd" target="_blank">MALT</a>
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <p></p>
+              <p style="color: #343a40; font-weight: bold">CORNET VSU</p>
+              <p>Backend developer providing a client lookup, notify, and pull service for VSU and other actors to access CORNET data.</p>
+              <p>Built a queue management service to poll for events and notify subscribing parties about the event that has occurred regarding offenders. Also built RESTful APIs to allow for further querying of this event data and for client lookup details.</p>
+              <p></p>
+              <p style="color: #343a40; font-weight: bold">Justin Royal Crown Council (JRCC)</p>
+              <p>Technical migration of the existing JUSTIN RCC Web Methods interface to OpenShift Microservices. It receives the prosecution XML and transforms it first to Crown Council XML, followed by post Crown council XML, and lastly to the Oracle API platform.</p>
+              <p>Maintained the JRCC document-access-libs public open source code repository.</p>
+              <p>Implemented dynamic clearing of Redis storage upon successful document handling.</p>
+              <p>Implemented the ability to pass in a custom sender property during file transferring and logging.</p>
+              <p></p>
+              <li class="list-inline-item">
+                <a href="https://github.com/bcgov/jrcc-document-access-libs" target="_blank">JRCC</a>
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <p></p>
+              <p style="color: #343a40; font-weight: bold; padding-top: 15px">Technologies used include:</p>
+              <ul>
+                <li>Javascript (ES6)</li>
+                <li>React</li>
+                <li>Storybook</li>
+                <li>Jest & Enzyme</li>
+                <li>Java</li>
+                <li>Spring & Spring Boot</li>
+                <li>Maven</li>
+                <li>Redis</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2019 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
               <h3 class="mb-0">Software Engineer Intern</h3>
-              <div class="subheading mb-3"><a href="https://www.change.org/"><img src="img/change.png" height="50" width="50" align="middle"></a>  Change.org</div>
+              <div class="subheading mb-3"><a href="https://www.change.org/" target="_blank"><img src="img/change.png" height="50" width="50" align="middle"></a>  Change.org</div>
               <p>Worked with the Quality Petiton team on the world's largest social change platform.</p>
               <p style="color: #343a40; font-weight: bold">SAP Entry Page</p>
               <p>Built a brand new entry page for the Start a Petition flow of the platform to provide useful information about petitions to potential starters.</p>
@@ -163,13 +238,13 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Full Stack Developer Co-op</h3>
-              <div class="subheading mb-3"><a href="https://rdbrck.com/"><img src="img/redbrick.png" height="50" width="50" align="middle"></a>  Redbrick</div>
+              <div class="subheading mb-3"><a href="https://rdbrck.com/" target="_blank"><img src="img/redbrick.png" height="50" width="50" align="middle"></a>  Redbrick</div>
               <p>Worked as a Full Stack Developer on a web application, an open source Chrome extension, Google Adwords scripts, and on a Jira API script.</p>
               <p style="color: #343a40; font-weight: bold">Statera (Web Application)</p>
               <p>Added many features such as being able to handle and run reports on chatbot campaigns, adding a data reporting filter, and the ability to rotate out advertising keywords automatically to test out the performance of different keywords on a daily basis.</p>
               <p style="color: #343a40; font-weight: bold">Jira Template Injector (Chrome Extension)</p>
               <p>Added functionality to support the addition of custom input IDs to inject templates into the Jira Template Injector (JTI) open source project.</p>
-              <p>Open source code for the JTI: <a href="https://github.com/rdbrck/jira-template-injector">Jira Template Injector</a></p>
+              <p>Open source code for the JTI: <a href="https://github.com/rdbrck/jira-template-injector" target="_blank">Jira Template Injector</a></p>
               <p style="color: #343a40; font-weight: bold">Google Adwords Scripts</p>
               <p>Wrote scripts for checking and notifying when actual CPA (cost per action) for an AdGroup is higher than the target CPA, checking for declining AdGroup performance, and finding anomalies within AdGroups.</p>
               <p style="color: #343a40; font-weight: bold">Jira API Script</p>
@@ -193,7 +268,7 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Junior Software Developer Co-op</h3>
-              <div class="subheading mb-3"><a href="https://www.obsglobal.com/"><img src="img/online.png" height="50" width="50"></a>  Online Business Systems</div>
+              <div class="subheading mb-3"><a href="https://www.obsglobal.com/" target="_blank"><img src="img/online.png" height="50" width="50"></a>  Online Business Systems</div>
               <p>Worked as the primary developer for an internal proof of concept mobile application. The application was a consultant status reporting cross-platform mobile app built from scratch using React Native. The purpose of the application was to enable consultants to elegantly and efficiently report their weekly status and for management/career mentors to easily view this data.</p>
               <p>The work completed throughout my work term paved the way for development using React and React Native within Online and in other client projects.</p>
               <p style="color: #343a40; font-weight: bold">Technologies used include:</p>
@@ -213,10 +288,10 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Summer Research Student</h3>
-              <div class="subheading mb-3"><a href="http://www.sbrc.ca/"><img src="img/sbrc.png" height="50" width="50"></a>  St. Boniface Research Centre</div>
+              <div class="subheading mb-3"><a href="http://www.sbrc.ca/" target="_blank"><img src="img/sbrc.png" height="50" width="50"></a>  St. Boniface Research Centre</div>
               <p>Worked as a summer research student under the supervision of a Ph.D. candidate performing experiments on a transcription factor named Scleraxis to determine its effects on Cardiac Fibrosis.</p>
               <p>My contributions got my name on an abstract publication as a first author, and I was also awarded the James. S. McGoey Best Summer Student Award.</p>
-              <p>Link to publication: <a href="http://circres.ahajournals.org/content/115/Suppl_1/A192">Scleraxis Abstract</a></p>
+              <p>Link to publication: <a href="http://circres.ahajournals.org/content/115/Suppl_1/A192" target="_blank">Scleraxis Abstract</a></p>
               <p style="color: #343a40; font-weight: bold">Experiments performed include:</p>
               <ul>
                 <li>Protein synthesis and western blotting</li>
@@ -236,6 +311,54 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
           <div class="my-auto">
             <h2 class="mb-5">Personal Projects</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <img src="img/ihvolunteer-logo.jpg" height="50" width="150" />
+                <p></p>
+                <h3 class="mb-0">Island Health Volunteering</h3>
+                <div class="subheading mb-3">Android Mobile Application</div>
+                <div>
+                  <img src="img/page1-ih.PNG" height="350" width="175" align="middle" hspace="12">
+                  <img src="img/page2-ih.PNG" height="350" width="175" align="middle" hspace="12">
+                  <img src="img/page3-ih.PNG" height="350" width="175" align="middle" hspace="12">
+                  <p></p>
+                  <img src="img/page4-ih.PNG" height="350" width="175" align="middle" hspace="12">
+                  <img src="img/page5-ih.PNG" height="350" width="175" align="middle" hspace="12">
+                  <p></p>
+                  <p>A mobile application designed and prototyped at <a href="https://www.islandhealth.ca/about-us/accountability/innovation/code-hack" target="_blank"> Island Health's Code Hack 2020</a>.</p>
+                  <p>Our team won 2nd prize and the People's Choice Award for our project Island Health Volunteering that provides a beautiful interface to better engage volunteers and provide them with the information and resources they need to be successful.</p>
+                  <p>Development has slowly begun and will continue in the near future to get the product built, shipped, and in front of real volunteer users.</p>
+                  <p style="color: #343a40; font-weight: bold">Major tools used:</p>
+                  <ul>
+                    <li>Sketch</li>
+                    <li>Java</li>
+                    <li>Android Studio</li>
+                  </ul>
+                  <p style="color: #343a40; font-weight: bold">Team Members and Contributions:</p>
+                  <ul>
+                      <li>Shreyas Devalapurkar: Developer</li>
+                      <li>Ahmed Siddiqui: Designer and Developer</li>
+                      <li>David Schriemer: Designer and Developer</li>
+                      <li>Christine Lee: Researcher</li>
+                      <li>Doug Ross: Team Lead, Project Coordinator, and Volunteer</li>
+                      <li>Emily: Researcher and Nurse (Input Provider)</li>
+                      <li>Jakelina: Patient, Researcher</li>
+                    </ul>
+                  <li class="list-inline-item">
+                      <a href="https://github.com/DSchriemer/HealthToday/" target="_blank">Island Health Volunteering</a>
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                  </li>
+                </div>
+                </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">March 2020 - Present</span>
+              </div>
+            </div>
 
             <div class="resume-item d-flex flex-column flex-md-row mb-5">
                 <div class="resume-content mr-auto">
@@ -274,7 +397,7 @@
                         <li>John Schriemer: UX and UI Developer</li>
                       </ul>
                     <li class="list-inline-item">
-                        <a href="https://github.com/sdevalapurkar/schedule-my-lessons">Schedulearn</a>
+                        <a href="https://github.com/sdevalapurkar/schedule-my-lessons" target="_blank">Schedulearn</a>
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -284,7 +407,7 @@
                   </div>
                   </div>
                 <div class="resume-date text-md-right">
-                  <span class="text-primary">March 2018 - Present</span>
+                  <span class="text-primary">March 2018 - October 2019</span>
                 </div>
               </div>
 
@@ -297,8 +420,8 @@
                   <p></p>
                   <p>Shiffany is the battlesnake I built for the 2018 battlesnake competition. She is a great partner and competitor :) You can see her as the pink snake as she triumphs in one of her battles in the video shown above.</p>
                   <p>Battlesnake is a yearly programming competition held in Victoria BC. Teams program web-based AIs for the classic arcade game Snake and the last snake slithering wins!</p>
-                  <p>Link to the official Battlesnake website: <a href="http://www.battlesnake.io">Battlesnake</a></p>
-                  <p>Link to the Battlesnake blog post for Shiffany and other Redbrick snakes: <a href="https://rdbrck.com/2018/03/battlesnake-2018-retrospective/">Blog post</a></p>
+                  <p>Link to the official Battlesnake website: <a href="http://www.battlesnake.io" target="_blank">Battlesnake</a></p>
+                  <p>Link to the Battlesnake blog post for Shiffany and other Redbrick snakes: <a href="https://rdbrck.com/2018/03/battlesnake-2018-retrospective/" target="_blank">Blog post</a></p>
                   <p style="color: #343a40; font-weight: bold">Technologies used to build Shiffany:</p>
                   <ul>
                     <li>JavaScript</li>
@@ -342,7 +465,7 @@
                       <li>Android SDK</li>
                     </ul>
                     <li class="list-inline-item">
-                        <a href="https://github.com/sdevalapurkar/board-game-handbook">Board Game Handbook</a>
+                        <a href="https://github.com/sdevalapurkar/board-game-handbook" target="_blank">Board Game Handbook</a>
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -374,7 +497,7 @@
                       <li>GitHub API</li>
                     </ul>
                     <li class="list-inline-item">
-                        <a href="https://github.com/sdevalapurkar/github-browser">GitHub Browser</a>
+                        <a href="https://github.com/sdevalapurkar/github-browser" target="_blank">GitHub Browser</a>
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -405,7 +528,7 @@
                       <li>Ionic</li>
                     </ul>
                     <li class="list-inline-item">
-                        <a href="https://github.com/sdevalapurkar/gpa-calculator">GPA Calculator</a>
+                        <a href="https://github.com/sdevalapurkar/gpa-calculator" target="_blank">GPA Calculator</a>
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -455,7 +578,7 @@
                   <p></p>
                   <p>StartupSlam is the largest tech conference on Vancouver Island. Workshops were offered on startup engineering, early stage entrepreneurship, and product validation and design.</p>
                   <p>I attended various workshops and listened to speakers from across the globe.</p>
-                  <p>Link to the official StartupSlam website: <a href="https://www.startupslam.io/">StartupSlam</a></p>
+                  <p>Link to the official StartupSlam website: <a href="https://www.startupslam.io/" target="_blank">StartupSlam</a></p>
                 </div>
                 <div class="resume-date text-md-right">
                   <span class="text-primary">September 2017, 2019</span>
@@ -470,7 +593,7 @@
                   <p>Prairie Dev Con is an annual conference that takes place in Winnipeg, MB. It provides a high quality professional development opportunity for software developers and architects.</p>
                   <p>I attended various talks and presentations by renowned Microsoft MVPs, senior developers, and other passionate individuals.</p>
                   <p>Topics were web development, cloud-based platforms and strategies, and artificial intelligence.</p>
-                  <p>Link to the official PDC website: <a href="http://www.prairiedevcon.com/">Prairie Dev Con</a></p>
+                  <p>Link to the official PDC website: <a href="http://www.prairiedevcon.com/" target="_blank">Prairie Dev Con</a></p>
                 </div>
                 <div class="resume-date text-md-right">
                   <span class="text-primary">June 2017</span>
@@ -485,7 +608,7 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0"><a href="https://www.uvic.ca/"><img src="img/uvic.png" height="50" width="50"></a>  University of Victoria</h3>
+              <h3 class="mb-0"><a href="https://www.uvic.ca/" target="_blank"><img src="img/uvic.png" height="50" width="50"></a>  University of Victoria</h3>
               <div class="subheading mb-3">Bachelor of Software Engineering</div>
               <div style="color: #343a40; font-weight: bold">Honours and Scholarships</div>
               <div>
@@ -509,7 +632,7 @@
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0"><a href="https://www.lrsd.net/schools/DCI/Pages/default.aspx"><img src="img/dakota.jpg" height="50" width="50"></a>  Dakota Collegiate Institute</h3>
+              <h3 class="mb-0"><a href="https://www.lrsd.net/schools/DCI/Pages/default.aspx" target="_blank"><img src="img/dakota.jpg" height="50" width="50"></a>  Dakota Collegiate Institute</h3>
               <div class="subheading mb-3">High School Diploma</div>
               <p style="color: #343a40; font-weight: bold">Graduating GPA</p>
               <ul>
@@ -636,23 +759,23 @@
           <li style="color: #343a40; font-weight: bold">Article Analysis: Safety-Critical Software Engineering and Fault Tree Analysis</li>
           <p></p>
           <p>The article I chose to analyze is titled, “Fault tree analysis for composite structural damages” published by the Journal of Aerospace Engineering in 2013. The purpose of this article is to “introduce a fault tree methodology to synthesize various damage modes of composite structures by identifying possible damage causes [1].” Fault tree analysis (FTA) was introduced by Bell Laboratories, and is a “method in system reliability, maintainability, and safety analysis [2].” FTA is a deductive process wherein combinations of failures that could cause undesired events are tested using a tree structure...</p>
-          <p>Link to the full article: <a href="files/faulttree.pdf">Fault Tree Analysis</a></p>
+          <p>Link to the full article: <a href="files/faulttree.pdf" target="_blank">Fault Tree Analysis</a></p>
           <li style="color: #343a40; font-weight: bold">Software Engineering Radio Podcast: LMAX Architecture</li>
           <p></p>
           <p>The Software Engineering Radio podcast I chose to analyze is titled, “Mike Barker on the LMAX Architecture” published by the IEEE Computer Society in 2016. Barker is a Research and Development programmer at the London Multi-asset Exchange (LMAX). In this podcast, Barker speaks about the LMAX Exchange system. He highlights the architecture, focusing on how the system works, the important non-functional requirements, and the components of the system...</p>
-          <p>Link to the full article: <a href="files/lmax.pdf">LMAX Architecture</a></p>
+          <p>Link to the full article: <a href="files/lmax.pdf" target="_blank">LMAX Architecture</a></p>
           <li style="color: #343a40; font-weight: bold">Article Analysis: The Golden Age of Software Architecture</li>
           <p></p>
           <p>The article I chose to analyze is titled, “The Golden Age of Software Architecture” published by the IEEE Software Journal in 2006. The purpose of this article is to “examine software architecture’s growth in the context of a technology maturation model [1].” The authors state that in the near future, “software architecture will be an essential part of software system building, and will be taken for granted just like all truly successful technologies [1]...”</p>
-          <p>Link to the full article: <a href="files/goldenagearchitecture.pdf">Golden Age of Software Architecture</a></p>
+          <p>Link to the full article: <a href="files/goldenagearchitecture.pdf" target="_blank">Golden Age of Software Architecture</a></p>
           <li style="color: #343a40; font-weight: bold">Design Patterns: The Builder</li>
           <p></p>
           <p>The design pattern I chose to analyze in this article is the “Builder” pattern within the Java language. The builder pattern is used to create an object made up of other objects. It allows users to “separate the construction of a complex object so that the same construction process can create different representations [1].” This is useful when the user wants the creation of specific parts to be independent of the main object. The pattern allows a “client object to construct a complex object by specifying only its type and content, being shielded from the details related to the object’s representation [2]...”</p>
-          <p>Link to the full article: <a href="files/builderpattern.pdf">Builder Design Pattern</a></p>
+          <p>Link to the full article: <a href="files/builderpattern.pdf" target="_blank">Builder Design Pattern</a></p>
           <li style="color: #343a40; font-weight: bold">Challenges in Creating Exceptional Software Systems</li>
           <p></p>
           <p>Software engineers around the world strive for excellence when it comes to creating software systems; however, this is not a simple task. Some of the major challenges faced in this process include requirements volatility, addressing quality attributes, and carrying out a well-established design process...</p>
-          <p>Link to the full article: <a href="files/exceptional.pdf">Challenges in Building Software Systems</a></p>
+          <p>Link to the full article: <a href="files/exceptional.pdf" target="_blank">Challenges in Building Software Systems</a></p>
         </ul>
       </section>
 
