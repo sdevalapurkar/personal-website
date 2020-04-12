@@ -2,7 +2,7 @@
 
 A personal profile website I built based off a Bootstrap template using HTML, CSS, JavaScript, and JQuery.
 
-## Preview
+## Preview (May be obsolete in terms of content)
 
 ![Webpage Image](/img/homepage1.png)
 
